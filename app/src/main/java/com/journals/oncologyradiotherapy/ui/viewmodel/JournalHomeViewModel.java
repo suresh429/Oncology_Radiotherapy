@@ -23,7 +23,7 @@ public class JournalHomeViewModel extends ViewModel {
         JournalRepository journalRepository = JournalRepository.getInstance(context);
 
         JsonObject jsonObject = new JsonObject();
-        jsonObject.addProperty("page_url",page_url);
+        jsonObject.addProperty("page_url",page_url+"/");
         mutableLiveData = journalRepository.getJournalHomeData(jsonObject);
         progressbarObservable = journalRepository.getProgressbarObservable();
         toastMessageObserver = journalRepository.getToastObserver();
