@@ -4,10 +4,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('E:\\Android projects\\Omics Projects\\Agricultural and Biological Research\\jks\\agbir.jks')
-            storePassword 'Agbir@123'
-            keyPassword 'Agbir@123'
-            keyAlias 'agbir'
+            storeFile file('E:\\Android projects\\Omics Projects\\Oncology Radiotherapy\\jks\\oncology_radiotherapy.jks')
+            storePassword 'Oncology@123'
+            keyPassword 'Oncology@123'
+            keyAlias 'oncology'
         }
     }
     compileSdkVersion 30
